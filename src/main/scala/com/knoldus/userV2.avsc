@@ -1,0 +1,13 @@
+ {
+      "namespace": "com.knoldus.kafkatutorials",
+      "type": "record",
+      "name": "UserV2",
+      "fields": [
+        {"name": "name", "type": "string"},
+        {"name": "location", "type": "string"},
+        {"name": "favoriteNumber",  "type": "int"},
+       {"name": "favoriteColor", "type": "string"},
+       {"name": "friends",  "type": ["string","null"],"default":"null"},
+       {"name": "favoriteDish", "type":["string","null"],"default":"null"}
+      ]
+    }

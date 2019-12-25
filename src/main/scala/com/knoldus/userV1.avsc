@@ -1,0 +1,11 @@
+{
+      "namespace": "com.knoldus.kafkatutorials",
+      "type": "record",
+      "name": "UserV1",
+      "fields": [
+        {"name": "name", "type": "string"},
+        {"name": "location", "type": "string"},
+        {"name": "favoriteNumber",  "type": "int"},
+       {"name": "favoriteColor", "type": "string"}
+      ]
+    }
