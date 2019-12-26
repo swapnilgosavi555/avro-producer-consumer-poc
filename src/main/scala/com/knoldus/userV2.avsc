@@ -1,7 +1,7 @@
  {
       "namespace": "com.knoldus.kafkatutorials",
       "type": "record",
-      "name": "UserV2",
+      "name": "UserV1",
       "fields": [
         {"name": "name", "type": "string"},
         {"name": "location", "type": "string"},
